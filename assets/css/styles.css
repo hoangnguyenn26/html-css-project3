@@ -131,6 +131,7 @@ h1 {
     text-shadow: 0.5px 0 0 currentColor;
 }
 
+
 .navbar__link--active::before {
     left: -8px;
     top: -2px;
@@ -211,4 +212,110 @@ h1 {
     border-radius: 0px;
     width: 210px;
     height: 410px;
+}
+
+/* Service */
+
+.service {
+    padding: 170px 0;
+}
+
+.service__heading { 
+    color: #10375C;
+    text-align: center;
+    font-family: Sora;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.service__desc {
+    max-width: 468px;
+    margin-top: 20px;
+    color: #575F66;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.service__img {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.service__row {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.service-item {
+    display: flex;
+    width: 470px;
+    padding: 22px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.service-item:hover {
+    position: relative;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.service-item__body {
+    margin-left: 19px;
+}
+
+.service-item__heading {
+    color: #10375C;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service-item__desc {
+    max-width: 351px;
+    color: #575F66;
+    margin-top: 8px;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+.service-item__icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #10375c;
+    background: #eff6fd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    transition: 0.25s;
+}
+
+.service-item:hover .service-item__icon-wrap {
+        background-color: #2E80CE;
+        color: #FFF;
+}
+
+.service__btn {
+    margin-top: 55px;
 }
