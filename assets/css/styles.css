@@ -3,8 +3,7 @@
 }
 
 :root {
-    --header-bg: #10375C;
- 
+    --header-bg: #10375c;
 }
 html {
     font-size: 62.5%;
@@ -23,7 +22,6 @@ h1 {
     font-size: 50px;
 }
 
-
 /* Common */
 .container {
     width: 1170px;
@@ -41,8 +39,8 @@ h1 {
     font-weight: 400;
     padding: 0 20px;
     border-radius: 99px;
-    color: #FFF;
-    background-color: #2E80CE;
+    color: #fff;
+    background-color: #2e80ce;
 }
 
 .btn:hover {
@@ -143,8 +141,9 @@ h1 {
     margin-right: 7px;
 }
 
-.navbar__link, .action__login {
-    color: #C9D2DA;
+.navbar__link,
+.action__login {
+    color: #c9d2da;
     text-align: center;
     padding: 10px 21px;
     font-size: 1.6rem;
@@ -152,12 +151,10 @@ h1 {
     line-height: 1.75; /* 175% */
 }
 
-
 .navbar__link:hover,
 .navbar__link--active {
     text-shadow: 0.5px 0 0 currentColor;
 }
-
 
 .navbar__link--active::before {
     left: -8px;
@@ -168,7 +165,7 @@ h1 {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #FFF;
+    background: #fff;
 }
 
 .action__signup {
@@ -194,7 +191,7 @@ h1 {
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: left;
-    color: #FFF;
+    color: #fff;
 }
 
 .hero__content--desc {
@@ -202,7 +199,7 @@ h1 {
     font-weight: 300;
     line-height: 30px;
     text-align: left;
-    color: #C9D2DA;
+    color: #c9d2da;
     margin-top: 22px;
 }
 
@@ -212,7 +209,7 @@ h1 {
 
 .hero__phone {
     margin-left: 38px;
-    color: #FFF;
+    color: #fff;
     font-size: 1.8rem;
     line-height: 1.67; /* 166.667% */
 }
@@ -241,8 +238,8 @@ h1 {
     padding: 170px 0;
 }
 
-.section-heading { 
-    color: #10375C;
+.section-heading {
+    color: #10375c;
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
@@ -253,7 +250,7 @@ h1 {
 .section-desc {
     max-width: 468px;
     margin-top: 20px;
-    color: #575F66;
+    color: #575f66;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -276,13 +273,12 @@ h1 {
     justify-content: space-between;
 }
 
-
 .service-item {
     display: flex;
     width: 470px;
     padding: 22px;
     border-radius: 10px;
-    background: #FFF;
+    background: #fff;
 }
 
 .service-item:hover {
@@ -290,13 +286,12 @@ h1 {
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 }
 
-
 .service-item__body {
     margin-left: 19px;
 }
 
 .service-item__heading {
-    color: #10375C;
+    color: #10375c;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: normal;
@@ -304,7 +299,7 @@ h1 {
 
 .service-item__desc {
     max-width: 351px;
-    color: #575F66;
+    color: #575f66;
     margin-top: 8px;
     font-size: 16px;
     font-weight: 300;
@@ -325,8 +320,8 @@ h1 {
 }
 
 .service-item:hover .service-item__icon-wrap {
-        background-color: #2E80CE;
-        color: #FFF;
+    background-color: #2e80ce;
+    color: #fff;
 }
 
 .service__btn {
@@ -336,7 +331,7 @@ h1 {
 /* Work */
 
 .work {
-    background: #F6FBFF;
+    background: #f6fbff;
     padding: 100px 0;
 }
 
@@ -366,7 +361,7 @@ h1 {
 
 .work-item__heading {
     margin-top: 18px;
-    color: #10375C;
+    color: #10375c;
     font-size: 2.6rem;
     font-weight: 600;
     line-height: 1.3846; /* 138.462% */
@@ -375,7 +370,7 @@ h1 {
 .work-item__desc {
     margin-top: 28px;
     max-width: 254px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.75; /* 175% */
@@ -384,19 +379,19 @@ h1 {
 .work-more {
     display: inline-block;
     margin-top: 18px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75; /* 175% */
 }
 
- .work__item:hover {
+.work__item:hover {
     transform: translateY(-16px);
-    border-color: #2E80CE;
+    border-color: #2e80ce;
 }
 
 .work__item:hover .work-more {
-    color: #2E80CE;
+    color: #2e80ce;
 }
 
 /* Feature */
@@ -440,7 +435,7 @@ h1 {
 }
 
 .feature__heading {
-    color: #10375C;
+    color: #10375c;
     font-size: 50px;
     font-weight: 600;
     line-height: 1.2; /* 120% */
@@ -448,7 +443,7 @@ h1 {
 }
 
 .feature__desc {
-    color: #575F66;
+    color: #575f66;
     margin: 18px 0 38px;
     font-size: 1.8rem;
     font-weight: 300;
@@ -524,4 +519,64 @@ h1 {
 
 .control-next-icon {
     rotate: 180deg;
+}
+
+/* Install */
+.install {
+    padding: 85px 0;
+    margin-top: 95px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+    padding: 0px 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+/* .install__content {
+    width: 50%;
+} */
+
+.install__heading {
+    max-width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.install__desc {
+    width: 586px;
+    margin-top: 18px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+}
+
+.install__row {
+    margin-top: 38px;
+}
+
+.install__btn {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.install__btn:last-child {
+    margin-left: 14px;
 }
