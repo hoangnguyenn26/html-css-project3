@@ -33,6 +33,7 @@ h1 {
 
 .btn {
     display: inline-block;
+    min-width: 205px;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -40,7 +41,6 @@ h1 {
     font-weight: 400;
     padding: 0 20px;
     border-radius: 99px;
-    min-width: 205px;
     color: #FFF;
     background-color: #2E80CE;
 }
@@ -113,14 +113,15 @@ h1 {
     display: flex;
 }
 
-.action__login,
-.navbar__link {
+.action__login {
+    margin-right: 7px;
+}
+
+.navbar__link, .action__login {
     color: #C9D2DA;
     text-align: center;
     padding: 10px 21px;
-    font-family: Sora;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.75; /* 175% */
 }
@@ -162,18 +163,16 @@ h1 {
 }
 
 .hero__heading {
-    font-family: Sora;
     font-size: 70px;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: left;
     color: #FFF;
 }
 
 .hero__content--desc {
-    font-family: Sora;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 30px;
     text-align: left;
@@ -188,11 +187,7 @@ h1 {
 .hero__phone {
     margin-left: 38px;
     color: #FFF;
-    text-align: center;
-    font-family: Sora;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 1.8rem;
     line-height: 1.67; /* 166.667% */
 }
 
@@ -220,27 +215,23 @@ h1 {
     padding: 170px 0;
 }
 
-.service__heading { 
+.section-heading { 
     color: #10375C;
     text-align: center;
-    font-family: Sora;
     font-size: 5rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.2; /* 120% */
     letter-spacing: -1px;
 }
 
-.service__desc {
+.section-desc {
     max-width: 468px;
     margin-top: 20px;
     color: #575F66;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: Sora;
     font-size: 1.8rem;
-    font-style: normal;
     font-weight: 300;
     line-height: 30px; /* 166.667% */
 }
@@ -280,9 +271,7 @@ h1 {
 
 .service-item__heading {
     color: #10375C;
-    font-family: Sora;
     font-size: 1.8rem;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
@@ -291,9 +280,7 @@ h1 {
     max-width: 351px;
     color: #575F66;
     margin-top: 8px;
-    font-family: Sora;
     font-size: 16px;
-    font-style: normal;
     font-weight: 300;
     line-height: 1.75; /* 175% */
 }
@@ -318,4 +305,127 @@ h1 {
 
 .service__btn {
     margin-top: 55px;
+}
+
+/* Work */
+
+.work {
+    background: #F6FBFF;
+    padding: 100px 0;
+}
+
+.work .section-heading {
+    text-align: left;
+}
+
+.work .section-desc {
+    margin-left: 0;
+    text-align: left;
+}
+
+.work__list {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.work__item {
+    width: 370px;
+    height: 402px;
+    padding: 43px 42px;
+    flex-shrink: 0;
+    border: solid 16px #EAF6FF;
+    border-radius: 6px;
+    transition: 0.8s;
+}
+
+.work-item__heading {
+    margin-top: 18px;
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.3846; /* 138.462% */
+}
+
+.work-item__desc {
+    margin-top: 28px;
+    max-width: 254px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.work-more {
+    display: inline-block;
+    margin-top: 18px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+ .work__item:hover {
+    transform: translateY(-16px);
+    border-color: #2E80CE;
+}
+
+.work__item:hover .work-more {
+    color: #2E80CE;
+}
+
+/* Feature */
+
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__content {
+    /* max-width: 470px; */
+}
+
+.feature__heading {
+    color: #10375C;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.feature__desc {
+    color: #575F66;
+    margin: 18px 0 38px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
 }
